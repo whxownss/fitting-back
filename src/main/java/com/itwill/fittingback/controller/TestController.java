@@ -52,7 +52,6 @@ public class TestController {
 		System.out.println(entities);
 		System.out.println("=============");
 		
-		System.out.println("123456123");
 
 		return response(entities);
 	}
