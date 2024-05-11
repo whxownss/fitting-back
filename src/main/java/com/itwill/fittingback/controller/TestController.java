@@ -35,6 +35,8 @@ public class TestController {
 		entity.setTestId(tempTestId);
 		
 		List<TestEntity> entities = service.create(entity);
+	
+		System.out.println();
 		
 		return response(entities);
 	}
