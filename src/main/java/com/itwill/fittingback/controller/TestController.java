@@ -37,7 +37,8 @@ public class TestController {
 		List<TestEntity> entities = service.create(entity);
 	
 		System.out.println();
-		
+		System.out.println("무창푸시중");
+
 		return response(entities);
 	}
 	
